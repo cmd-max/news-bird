@@ -1,0 +1,43 @@
+/* app.css */
+
+/* Overall app container */
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Container for New_Board component */
+  .New_Board {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  /* Additional styles for specific elements inside App */
+  .app h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    color: #343a40;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .app {
+      padding: 10px;
+    }
+    
+    .app h2 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .app h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
